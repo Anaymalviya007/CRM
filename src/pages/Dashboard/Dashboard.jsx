@@ -4,10 +4,10 @@ import Navbar from '../../components/navbar/Navbar'
 
 const Dashboard = () => {
   return (
-    <div className='dashboard flex'>
-        
+    <div className='dashboard'>  
+      
         <Navbar />
-        <div className="dashboardContainer">container</div>
+        <Sidebar />
     </div>
   )
 }
